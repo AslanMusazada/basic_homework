@@ -1,0 +1,251 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+body {
+    background-color: aliceblue;
+
+}
+
+
+
+.header_container {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+ 
+    
+    
+    
+}
+
+#menuicon {
+    width: 30px;
+    height: 20px;
+    margin-top: 5px;
+}
+
+
+.firstcolordiv {
+    background-color: chocolate;
+    width: 260px;
+    height: 550px;
+    position: relative;
+    left: 879px;
+    top: 134px;
+}
+
+#onesectionimg {
+    width: 720px;
+    height: 430px;
+    position: relative;
+    left: 350px;
+    top: -520px;
+}
+
+#onesectiontextdiv {
+    position: relative;
+    border: 1px solid gray;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 417px;
+    height: 339px;
+    bottom: 730px;
+    left: 747px;
+    background-color: white;
+}
+
+
+.onesection h1 {
+    margin-top: 35px;
+    font-size: 58px;
+    margin-left: 12px;
+}
+
+#onesectionp {
+    margin-left: 18px;
+}
+
+button {
+    position: relative;
+    margin-top: auto;
+    bottom: 15px;
+    width: 142px;
+    height: 35px;
+    border-radius: 25px;
+    left: 11px;
+    background-color: chocolate;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 1px solid rgb(221, 215, 215);
+}
+
+/* TWO SECTION */
+
+.peoplesdiv1 {
+    display: flex;
+    margin-top: 25px;
+    
+
+    
+}
+
+.peoplesdiv2 {
+    display: flex;
+}
+
+.peoplesdiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+    border: 1px solid rgb(207, 207, 207);
+    height: 265px;
+    width: 200px;
+    margin-left: 35px;
+    margin-top: 35px;
+    
+    
+    
+        
+    }
+
+    .peoplesdiv:hover {
+        box-shadow: 10px 5px 10px gray;
+        transition: 0.5s;
+        width: 220px;
+        height: 275px;
+    }
+
+
+.twosection {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    bottom: 520px;
+    
+}
+
+.twosection p {
+    font-size: 25px;
+    font-style: italic;
+}
+
+.twosection h1 {
+    font-size: 35px;
+}
+
+.social {
+    width: 25px;
+    height: 20px;
+}
+
+
+
+
+
+.peopleimage {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 10px solid rgb(255, 0, 0);
+    margin-top: 15px;
+    
+}
+
+h1 {
+    font-size: 30px;
+    position: relative;
+    bottom: 18px;
+    margin-top: 20px;
+    
+}
+
+h3 {
+    font-size: 18px;
+    position: relative;
+    bottom: 10px;
+}
+
+/* THREE SECTION */
+
+.threesection {
+    display: flex;
+    background-color: white; 
+    justify-content: center;
+    position: relative;
+    bottom: 200px;
+
+}
+
+.threesection img {
+    width: 500px;
+    height: 550px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+}
+
+form h1 {
+    text-align: center;
+    padding-top: 15px;
+}
+
+form label {
+    
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+form input, textarea {
+    margin-top: 5px;
+}
+
+form input, textarea{
+    border: none;
+    border-bottom: 3px solid rgb(201, 195, 195);
+    width: 450px;
+}
+
+.threesection button {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 80px;
+    width: 450px;
+    height: 50px;
+}
+
+.threesection button:hover {
+  
+        transition: 0.5s;
+        width: 470px;
+        
+}
+
+/* FOOTER */
+
+footer {
+    background-color: gray;
+    height: 70px;
+
+
+}
+
+footer h1 {
+    text-align: center;
+    position: relative;
+    top: 20px;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
